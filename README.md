@@ -29,10 +29,9 @@ This repository consists of storing the codes produced by the practical exercise
 ## :paperclip: Exercises 
 
 
-| Exercise  |     Topic     |     Link    |
-|:---------:|:-------------:|:-----------:|
-| Example   |               |             |
-| Example 2 |               |             |
+| Exercise    |     Topic                              |     Link    |
+|:---------:  |:-------------:                         |:-----------:|
+| Hello World | A simple hello world using spring boot | [Link](https://github.com/felipersdf/distributed-programming/tree/master/HelloWorld)    |        
 
 
 ---
