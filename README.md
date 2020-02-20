@@ -41,7 +41,8 @@ This repository consists of storing the codes produced by the practical exercise
 
 | Exercise    |     Topic                              |     Link    |
 |:---------:  |:-------------:                         |:-----------:|
-| Hello World | A simple hello world using spring boot | [Link](https://github.com/felipersdf/distributed-programming/tree/master/HelloWorld)    |        
+| Hello World | A simple hello world using spring boot | [Link](https://github.com/felipersdf/distributed-programming/tree/master/HelloWorld)    |  
+| API Rest + Scale | An example using API Rest with spring boot and checking the scale of the program |[Link](https://github.com/felipersdf/distributed-programming/tree/master/APIRest-Escala)       
 
 
 ---
