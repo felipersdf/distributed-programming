@@ -45,6 +45,7 @@ This repository consists of storing the codes produced by the practical exercise
 | API Rest + Scale Lab 1 | An example using API Rest with spring boot and checking the scale of the program |[Link](https://github.com/felipersdf/distributed-programming/tree/master/APIRest-Escala)    |
 | Scale Lab 2 | An example that increases the scale App developed in the Scale Lab - 1, replicating the resource. |[Link](https://github.com/felipersdf/distributed-programming/tree/master/ScaleLab2)       |
 | Socket | An example about interprocess communication with Socket. | [Link](https://github.com/felipersdf/distributed-programming/tree/master/Socket) |
-| | |
-
+| Scoket com Threads| An about interprocess communication with Socket using Threads. | [Link](https://github.com/felipersdf/distributed-programming/tree/master/Sockets-com-Threads) |
+| Sistema-NFS | An example of a NFS system | [Link](https://github.com/felipersdf/distributed-programming/tree/master/Sistema-nfs)|
+| | | 
 ---
