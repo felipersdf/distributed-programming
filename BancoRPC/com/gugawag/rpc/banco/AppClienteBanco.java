@@ -23,14 +23,35 @@ public class AppClienteBanco {
         while(opcao != 9) {
             switch (opcao) {
                 case 1: {
+                    entrada.nextLine();
                     System.out.println("Digite o número da conta:");
                     String conta = entrada.next();
                     //chamada ao método remoto, como se fosse executar localmente
                     System.out.println(banco.saldo(conta));
+                    break;
                 }
                 case 2: {
+                    entrada.nextLine();
                     //chamada ao método remoto, como se fosse executar localmente
                     System.out.println(banco.quantidadeContas());
+                    break;
+                }
+                case 3: {
+                    entrada.nextLine();
+                    System.out.println("Informe o numero da conta: ");
+                    String numConta = entrada.nextLine();
+                    System.out.println("Informe o saldo da conta: ");
+                    Double saldo = entrada.nextDouble();
+
+                    banco.adicionarConta(numConta, saldo);
+                    break;
+                }
+                case 4: {
+                    entrada.nextLine();
+                    System.out.println("Informe o numero da conta: ");
+                    String conta = entrada.nextLine();
+                    System.out.println(banco.pesquisarConta(conta));
+                    break;
                 }
             }
             menu();
@@ -40,9 +61,13 @@ public class AppClienteBanco {
 
     public static void menu() {
         System.out.println("\n=== BANCO RMI (ou FMI?!) ===");
+        System.out.println("\nFelipe da Silva Rodrigues \n");
         System.out.println("1 - Saldo da conta");
         System.out.println("2 - Quantidade de contas");
+        System.out.println("3 - Adicionar uma conta");
+        System.out.println("4 - Pesquisar uma conta");
         System.out.println("9 - Sair");
+        System.out.println("\n Escolha uma das opções acima:");
     }
 
 }
