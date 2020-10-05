@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prática EJB - Programação Distribuída</title>
+</head>
+<body>
+    <h1>Aplicativo exemplo de uso de EJB</h1>
+    <p>Obs.: Tentar inserir uma mensagem com Id sem conteudo lançará uma excecção de "Não é possível adicionar mensagem sem conteudo!" <br>
+    </p>
+    <br>
+    <p>Adicionar Mensagem</p>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br> <br>
+        Conteudo: <textarea name="conteudo"></textarea>
+        <input type="hidden" name="oper" value="1" /><br>
+        <button>Inserir</button>
+    </form>
+    <br>
+    <hr/>
+
+    <form action="mensagem.do" method="GET">
+        <input type="hidden" name="oper" value="2" />
+        <button>Listar Mensagens</button>
+    </form>
+    <br>
+
+    <hr/>
+    <p>Listar Mensagem por Id</p>
+    <form action="mensagem.do" method="GET">
+        Id: <input name="id"><br>
+        <input type="hidden" name="oper" value="3" />
+        <button>Buscar por Id</button>
+    </form>
+</body>
+</html>
