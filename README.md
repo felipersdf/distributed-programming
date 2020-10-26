@@ -38,7 +38,7 @@ This repository consists of storing the codes produced by the practical exercise
 
 ## :paperclip: Exercises
 
-|        Exercise        |                                                                                   Topic                                                                                    |                                             Link                                              |
+|        Exercise        |                                                                                Description                                                                                 |                                             Link                                              |
 | :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: |
 |      Hello World       |                                                                   A simple hello world using spring boot                                                                   |     [Link](https://github.com/felipersdf/distributed-programming/tree/master/HelloWorld)      |
 | API Rest + Scale Lab 1 |                                              An example using API Rest with spring boot and checking the scale of the program                                              |   [Link](https://github.com/felipersdf/distributed-programming/tree/master/APIRest-Escala)    |
@@ -48,5 +48,7 @@ This repository consists of storing the codes produced by the practical exercise
 |      Sistema-NFS       |                                                                         An example of a NFS system                                                                         |     [Link](https://github.com/felipersdf/distributed-programming/tree/master/Sistema-nfs)     |
 |        BancoRPC        |                                   An example that aims to show the way of communication between different processes using RPC with RMI.                                    |       [Link](http://github.com/felipersdf/distributed-programming/tree/master/BancoRPC)       |
 |      pratica-ejb       | An example that aims to to demonstrate the use of EJB as well as the ease of use of transactions controlled by the container (CMT) and practice the construction of an EJB |     [Link](http://github.com/felipersdf/distributed-programming/tree/master/pratica-ejb)      |
+|      helloworld-rabbitmq      | An example that aims to understand how the main components of a messaging framework work. It is not an objective to understand the entire RabbitMQ api and all its potential. |     [Link](http://github.com/felipersdf/distributed-programming/tree/master/helloworld-rabbitmq)      |
+|      pratica-workers      | An example that create works queues, queues with persistence and use acks to confirm message deliveries  |     [Link](http://github.com/felipersdf/distributed-programming/tree/master/pratica-workers)      |
 
 ---
